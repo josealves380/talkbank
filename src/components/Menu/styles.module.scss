@@ -1,0 +1,29 @@
+.Menu {
+  width: 100%;
+  padding: 30px;
+  background: #335D8E url(../../assests/logo.png) no-repeat;
+  text-align: end;
+}
+strong {
+  align-items: center;
+  padding: 0 200px;
+}
+.Cartao {
+  background: #4474F0;
+  margin-top: 32px;
+  padding: 0 40px;
+  height: 30px;
+  
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  
+  align-items: center;
+
+  &:hover {
+    filter:brightness(0.9);
+  }
+}
